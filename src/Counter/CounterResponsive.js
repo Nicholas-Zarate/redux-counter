@@ -22,6 +22,11 @@ export default function Counter() {
 
   const [incrementAmount, setIncrementAmount] = useState('1');
 
+  const reset = () => {
+    setIncrementAmount('1');
+    dispatch(reset());
+  }
+
   return (
       <Grid className="gridContainer" container columns={4}>
         <Grid className="gridItem" item xs={4} md={4} lg={2}>
@@ -67,7 +72,7 @@ export default function Counter() {
               <input onChange={e => setIncrementAmount(e.target.value)} value={incrementAmount}/>
             </div>
         </div>
-        <button class='button-29' id="reset" aria-label="Reset" onClick={() => dispatch( reset())}>RESET</button>
+        <button class='button-29' id="reset" aria-label="Reset" onClick={() => reset()}>RESET</button>
           </div>
         </Grid>
       </Grid>
