@@ -6,3 +6,20 @@ A simple counter built to implement Redux fundamentals such as creating a **Stor
 
 #### Live demo: https://nicholas-zarate.github.io/redux-counter/
 
+# Getting started
+
+### Clone
+```bash
+git clone https://github.com/Nicholas-Zarate/redux-counter.git
+```
+
+### Install dependencies
+```bash
+cd redux-counter/src
+npm install
+```
+
+### Run
+```bash
+npm start
+```
