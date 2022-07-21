@@ -3,17 +3,23 @@
 </div>
 
 <div align="center">
-  <div> <h1> Redux Counter <img width="25" height="25" src="https://user-images.githubusercontent.com/60954472/178598348-e381b0fb-9bf9-4414-81d9-22c7e98c2bd4.png"/></h1> </div>
+  <div> <h1> Redux Counter 
+  <!--- <img width="25" height="25" src="https://user-images.githubusercontent.com/60954472/178598348-e381b0fb-9bf9-4414-81d9-22c7e98c2bd4.png"/> --->
+  </h1> </div>
 </div>
 
 
-A simple counter built to implement Redux fundamentals such as creating a **Store** and **Slice**, 
-**Slice Reducers**, and using **useSelector** and **useDispatch** hooks. 
-
-<a href="https://nicholas-zarate.github.io/redux-counter/">Live demo </a>
+<p align="center"> A simple counter built to implement Redux fundamentals </br> such as creating a Store and Slice, 
+Slice Reducers, and using </br> useSelector and useDispatch hooks. </p>
 
 
+<div align="center"> <img src="https://skills.thijs.gg/icons?i=react,redux"/> </div>
+
+ <br></br>
+ <br></br>
  
+<div align="center"> <a href="https://nicholas-zarate.github.io/redux-counter/"> Live demo </a> </div>
+
 <br></br>
 <br></br>
 
